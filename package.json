@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "vue": "^3.3.4",
+    "vue-latest-table": "^1.0.5",
     "vue-router": "^4.2.2"
   },
   "devDependencies": {
