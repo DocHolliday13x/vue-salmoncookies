@@ -42,13 +42,14 @@ import SupportIcon from './icons/IconSupport.vue'
     </template>
     <template #heading>Ecosystem</template>
 
-    Get official tools and libraries for your project:
-    <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">Pinia</a>,
-    <a href="https://router.vuejs.org/" target="_blank" rel="noopener">Vue Router</a>,
-    <a href="https://test-utils.vuejs.org/" target="_blank" rel="noopener">Vue Test Utils</a>, and
-    <a href="https://github.com/vuejs/devtools" target="_blank" rel="noopener">Vue Dev Tools</a>. If
-    you need more resources, we suggest paying
-    <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">Awesome Vue</a>
+    Pat ensures that he utilizes the most up-to-date ethical fishing methods to help preserve the delicate ecosystem of our oceans.
+
+    Check out some of the associations Pat uses to ensure his fishing methods are sustainable:
+    <a href="https://www.lrqa.com/en/rfvs/" target="_blank" rel="noopener">LRQA</a>,
+    <a href="https://www.seafish.org/responsible-sourcing/tools-for-ethical-seafood-sourcing/records/responsible-fishing-vessel-standard-rfvs/" target="_blank" rel="noopener">seafish - RFVS</a>, and
+    <a href="https://www.globalseafood.org/blog/rfvs-issue-2-released/" target="_blank" rel="noopener">Global Seafood Alliance</a>.
+    If you are curious about more resources and would like to see how YOU can contribute to ocean conservation, make sure that you pay
+    <a href="https://donate.oceanconservancy.org/page/121401/donate/1?ea.tracking.id=23HPXWJAXX&utm_medium=PaidSearch&utm_source=GooglePaid&utm_campaign=NonBranded&gad=1&gclid=CjwKCAjwwb6lBhBJEiwAbuVUSluk6tW2WSSVdkY_dFN6DAF00TdGmkBnQ0BprE03MkaBjcuU98zj-xoCFr4QAvD_BwE" target="_blank" rel="noopener">Ocean Conservancy</a>
     a visit.
   </WelcomeItem>
 
