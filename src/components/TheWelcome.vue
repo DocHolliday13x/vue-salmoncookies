@@ -59,16 +59,10 @@ import SupportIcon from './icons/IconSupport.vue'
     </template>
     <template #heading>Contact Us</template>
 
-    Got stuck? Ask your question on
-    <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Vue Land</a>, our official
-    Discord server, or
-    <a href="https://stackoverflow.com/questions/tagged/vue.js" target="_blank" rel="noopener"
-      >StackOverflow</a
-    >. You should also subscribe to
-    <a href="https://news.vuejs.org" target="_blank" rel="noopener">our mailing list</a> and follow
-    the official
-    <a href="https://twitter.com/vuejs" target="_blank" rel="noopener">@vuejs</a>
-    twitter account for latest news in the Vue world.
+    Do you have questions, comments or concerns? Please feel free to ask your question on
+    <a href="https://discord.gg/j5y5vCwf" target="_blank" rel="noopener">Pat's Ocean View Hot Tub</a>, our official
+    Discord server, or give us a call at 1-800-555-5555.
+
   </WelcomeItem>
 
   <WelcomeItem>
@@ -79,7 +73,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
     As an independent family owned and operated business, we rely on community backing for sustainability. You can help
     us by providing
-    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">feedback</a>
+    <a href="https://discord.gg/j5y5vCwf/" target="_blank" rel="noopener">feedback</a>
     in regard to your experience.
   </WelcomeItem>
 </template>
