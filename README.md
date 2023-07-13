@@ -12,21 +12,28 @@ Assume, for this assignment, that your employer has asked your team to do a proo
 
 ### Links and Resources
 
-- [GitHub Actions ci/cd](http://xyz.com) (when applicable)
-- [back-end server url](http://xyz.com) (when applicable)
-- [front-end application](http://xyz.com) (when applicable)
+- [GitHub Actions ci/cd](https://github.com/DocHolliday13x/vue-salmoncookies/actions)
+- [front-end application](https://vue-salmoncookies.netlify.app/)
 
 ### Setup
 
+1. We created the application using the Vue.js framework.
+2. `npm init vue@latest`
+3. We then had to choose optional features.
+4. Then we cd into the directory and run `npm install` to install all the dependencies.
+5. We gather proof of life by running `npm run dev` to make sure the application is running.
+6. We then created a repository on GitHub and pushed our code to it.
+7. We then created a Netlify account and connected it to our GitHub repository.
+
 #### `.env` requirements (where applicable)
 
-for now I have none and do not require one
+For now, we have none and do not require one.
 
 #### How to initialize/run your application (where applicable)
 
-- e.g. `npm start`
-
-#### How to use your library (where applicable)
+1. Clone the repository to your local machine.
+2. Run `npm install` to install all dependencies.
+3. Run `npm run dev` to start the application.
 
 #### Features / Routes
 
@@ -35,47 +42,10 @@ for now I have none and do not require one
 
 #### Tests
 
-- How do you run tests?
-- Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
+- *How do you run tests?*
+- *Any tests of note?*
+- *Describe any tests that you did not complete, skipped, etc*
 
 #### UML
 
 Link to an image of the UML for your application and response to events
-
-<!-- # vue-salmoncookies
-
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
-# vue-salmoncookies -->
