@@ -15,6 +15,10 @@ Assume, for this assignment, that your employer has asked your team to do a proo
 - [GitHub Actions ci/cd](https://github.com/DocHolliday13x/vue-salmoncookies/actions)
 - [front-end application](https://vue-salmoncookies.netlify.app/)
 
+- [Testing w/Vue.js](https://v2.vuejs.org/v2/cookbook/unit-testing-vue-components.html)
+- [Vue Test Utils](https://v1.test-utils.vuejs.org/guides/)
+- [Vue CLI](https://cli.vuejs.org/core-plugins/unit-jest.html#configuration)
+
 ### Setup
 
 1. We created the application using the Vue.js framework.
