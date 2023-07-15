@@ -25,32 +25,32 @@ Assume, for this assignment, that your employer has asked your team to do a proo
 6. We then created a repository on GitHub and pushed our code to it.
 7. We then created a Netlify account and connected it to our GitHub repository.
 
-#### `.env` requirements (where applicable)
+### `.env` requirements (where applicable)
 
 For now, we have none and do not require one.
 
-#### How to initialize/run your application (where applicable)
+### How to initialize/run your application (where applicable)
 
 1. Clone the repository to your local machine.
 2. Run `npm install` to install all dependencies.
 3. Run `npm run dev` to start the application.
 
-#### Features / Routes
+### Features / Routes
 
 - Feature One: Details of feature
 - GET : `/hello` - specific route to hit
 
-#### Tests
+### Tests
 
 - *How do you run tests?*
 - *Any tests of note?*
 - *Describe any tests that you did not complete, skipped, etc*
 
-#### UML
+### UML
 
-Link to an image of the UML for your application and response to events
+- ![UML](src/assets/lab40UML.png)
 
-#### JS Framework Comparative Analysis
+### JS Framework Comparative Analysis
 
 **Framework Name:** Vue.js
 
