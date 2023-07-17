@@ -47,8 +47,27 @@ For now, we have none and do not require one.
 ### Tests
 
 - *How do you run tests?*
+
+  - `npm run test:unit` should be the command to run tests, but it's a nightmare to get it to work and the docs are virtually useless in this regard.
 - *Any tests of note?*
+
+  - The goal was to test the table component for starters, but we couldn't get the tests to run.
+
 - *Describe any tests that you did not complete, skipped, etc*
+
+  - Even with the assistance of ChatGPT, we were unable to produce any form of tests for this application. There is an absolute plethora of reasons as to why this might be, even after virtually uninstalling and force reinstalling every possible dependency, json.package and node modules. I will include the list of known issues below, but I'm sure there are more that I'm not aware of.
+
+- *List of known testing problems with Vue.js:*
+
+1. Use a testing framework: Popular testing frameworks for Vue.js include Jest, Mocha, and Karma. These frameworks provide utilities and tools specifically designed for testing Vue.js applications.
+
+2. Mock dependencies: To isolate components during testing, use mocks or stubs for external dependencies, such as API requests or external libraries. This helps ensure that tests focus on the specific component under test.
+
+3. Utilize testing utilities: Vue provides testing utilities like vue-test-utils that simplify the process of rendering components, interacting with them, and making assertions. These utilities make it easier to write clean and effective tests.
+
+4. Write comprehensive tests: Test all possible scenarios and edge cases to ensure adequate coverage. This includes testing component rendering, user interactions, computed properties, async behavior, and Vuex store mutations/actions.
+
+5. Follow test-driven development (TDD) principles: Write tests before implementing functionality to ensure code correctness and maintainability. TDD helps catch issues early in the development process and ensures that tests remain up-to-date.
 
 ### UML
 
@@ -61,10 +80,10 @@ For now, we have none and do not require one.
 **Research Conducted By:** Ryan Eastman, Kao Saelor, Kenya Womack, Coriana Williams
 
 **Overall Score and Comments:**
-Score (Out of 10): 7
+Score (Out of 10): 4
 
 **General Comments**
-Vue.js is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is supposedly easy to pick up and integrate with other libraries or existing projects. On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with modern tooling and supporting libraries.
+Vue.js is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is supposedly easy to pick up and integrate with other libraries or existing projects. On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with modern tooling and supporting libraries. Because it's so terrible to attempt testing with, I cannot in good faith recommend this framework to anyone. It's a nightmare to work with and the documentation is virtually useless. I would rather use React.js or Angular.js over this framework any day of the week.
 
 **Describe the stack (front-end only? full stack?), database, efficiency, etc. Describe the general usability and learnability.**
 Our application is a front-end only, full stack application. It is very similar to React.js. It is somewhat user-friendly in regard to picking it up and learning to utilize it. I can't speak about the level of difficulty required to integrate this with other libraries or existing projects, becuase we built it from scratch simply referncing the prior version of Salmon Cookies that we built earlier in tandom with the documentation provided by Vue.js.
@@ -78,6 +97,7 @@ Our application is a front-end only, full stack application. It is very similar 
 
 - Documentation is a little less in depth than than other frameworks.
 - Not as popular as other frameworks.
+- Testing virtually impossible to implement.
 
 **Ratings and Reviews:**
 
